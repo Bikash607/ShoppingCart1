@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="ShoppingCart1.Admin.AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+      <asp:UpdatePanel runat="server" ID="AdminUpdatePanel">
+       <ContentTemplate>
+       <table align="center" style="width:900px">
+       <tr>
+           <td>
+               <table align="center" style="width:900px;border-bottom-style:ridge;border-bottom-width:medium; border-color:#9933ff">
+                   <tr>
+                       <td align="center">
+                           <asp:Image ID="img1" runat="server" ImageUrl="~/Images/fevicon.jpg" Height="67px" Width="57px" />
+                           &nbsp;
+                       </td>
+                       <td>
+                           <asp:LinkButton ID="lblLogo" runat="server" Text="ShoppingCart" Font-Size="20pt" OnClick="lblLogo_Click"  Font-Names="Eras Demi ITC" ForeColor="#0660CC"></asp:LinkButton>
+                           <br />
+                           For Those Who Love Shopping...!
+                       </td>
+                       <td align="center">
+                           <asp:Image ID="img2" ImageUrl="~/Images/admin.png" runat="server" Width="107px" Height="87px" />
+                       </td>
+                   </tr>
+               </table>
+           </td>
+       </tr>
+       <tr>
+           <td>
+           <table align="center" style="width:900px;border:thin ridge #9900FF" >
+               <tr>
+                   <td class="Style2">
+                       <a href="AddEditCatagory.aspx">Catagory</a>&nbsp;
+                       <a href="AddNewProducts.aspx"> Products</a>&nbsp;
+                       <a href="Category.aspx">AllCategory</a>&nbsp;
+                       <a href ="Products.aspx">AllProduct</a>&nbsp;
+                       <a href="CustomerOrders.aspx">CustomerOrder</a>
+                       <a href="ProductStock.aspx">ProductStock</a>
+                       <a href="#">IncomeReport</a>
+                   </td>
+               </tr>
+           </table>
+         </td>
+       </tr>
+       <tr>
+         <td>
+           <table align="center" style="border:2px ridge #000000;width:900px;" >
+               <tr>
+                   <td class="style2" valign="top">
+                       <asp:Panel ID="pnlCatagories" runat="server">
+                           <asp:ContentPlaceHolder ID="ContentPlacrHolder1" runat="server">
+
+                           </asp:ContentPlaceHolder>
+                       </asp:Panel>
+                   </td>
+               </tr>
+           </table>
+        </td>
+       </tr>
+       <tr>
+           <td  align="center">
+               &nbsp;&copy;<a href="Default.aspx">MyShoppingCar.blogspot.com</a>
+           </td>
+       </tr>
+   </table>
+  </ContentTemplate>
+ </asp:UpdatePanel>
+ </form>
+</body>
+</html>

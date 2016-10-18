@@ -1,0 +1,12 @@
+E:\Projects\ShoppingCart1\ShoppingCart1\bin\ShoppingCart1.dll.config
+E:\Projects\ShoppingCart1\ShoppingCart1\bin\ShoppingCart1.dll
+E:\Projects\ShoppingCart1\ShoppingCart1\bin\ShoppingCart1.pdb
+E:\Projects\ShoppingCart1\ShoppingCart1\obj\Debug\ShoppingCart1.csprojResolveAssemblyReference.cache
+E:\Projects\ShoppingCart1\ShoppingCart1\obj\Debug\ShoppingCart1.dll
+E:\Projects\ShoppingCart1\ShoppingCart1\obj\Debug\ShoppingCart1.pdb
+E:\My Folder\Projects\ShoppingCart1\ShoppingCart1\bin\ShoppingCart1.dll.config
+E:\My Folder\Projects\ShoppingCart1\ShoppingCart1\bin\ShoppingCart1.dll
+E:\My Folder\Projects\ShoppingCart1\ShoppingCart1\bin\ShoppingCart1.pdb
+E:\My Folder\Projects\ShoppingCart1\ShoppingCart1\obj\Debug\ShoppingCart1.csprojResolveAssemblyReference.cache
+E:\My Folder\Projects\ShoppingCart1\ShoppingCart1\obj\Debug\ShoppingCart1.dll
+E:\My Folder\Projects\ShoppingCart1\ShoppingCart1\obj\Debug\ShoppingCart1.pdb
