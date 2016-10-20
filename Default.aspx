@@ -47,7 +47,6 @@
     </style>
 </head>
 <body>
-<div></div>
     <form id="form1" runat="server">
     <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
         <asp:UpdatePanel ID="UpdatePaPanel3" runat="server">
@@ -90,7 +89,7 @@
                                 <tr>
                                     <td class="style2">
                                         &nbsp;
-                                        <asp:Label ID="lblCategoryName" runat="server" Font-Size="16pt" ForeColor="#6600CC"></asp:Label>
+                                        <asp:Label ID="lblCategoryName" runat="server" Font-Size="15pt" ForeColor="#6600CC"></asp:Label>
                                     </td>
                                     <td class="style3" style="border-left-style:ridge;border-width:thin;border-color:#9900FF">
                                            &nbsp;
