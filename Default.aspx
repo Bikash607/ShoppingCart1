@@ -63,7 +63,7 @@
                                   <td  class="style6" rowspan="2" >
                                       <asp:LinkButton ID="lblLogo" OnClick="lblLogo_Click" CausesValidation="false" runat="server" Text="ShoppingCart" Font-Size="20pt"  Font-Names="Eras Demi ITC" ForeColor="#0660CC"></asp:LinkButton>
                                        <br />
-                                       For Those Who Love Shopping...!
+                                       For Those Who Love Shopping...!Best Shopping for all.
                                   </td>
                                  <td align="center" rowspan="2"  class="style7">
                                      <asp:Image ID="img2" ImageUrl="~/Images/slide1.jpg" runat="server" Width="282px" Height="67px" />
