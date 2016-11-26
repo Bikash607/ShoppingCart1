@@ -10,7 +10,6 @@ namespace ShoppingCart1
     {
         public static void SendEmail(string recepientEmail,string subject,string body)
         {
-            int x;
             using(MailMessage objMailMessage=new MailMessage())
             {
                 objMailMessage.From = new MailAddress(ConfigurationManager.AppSettings["UserName"]);
